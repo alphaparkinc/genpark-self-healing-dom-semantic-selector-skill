@@ -1,0 +1,39 @@
+{
+  "name": "genpark-self-healing-dom-semantic-selector-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Self-healing DOM semantic selector resilient to CSS class mutations, dynamic framework re-renders, and obfuscated tags.",
+  "homepage": "https://genpark.ai/mcp",
+  "author": "genpark",
+  "category": "web-agent",
+  "tags": [
+    "tabbit-ai",
+    "stagehand",
+    "browserbase",
+    "dom-selector",
+    "web-scraping"
+  ],
+  "inputs": {
+    "target_description": {
+      "type": "string"
+    },
+    "historical_selector": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "resolution_id": {
+      "type": "string"
+    },
+    "healed_selector": {
+      "type": "string"
+    },
+    "confidence_score": {
+      "type": "number"
+    },
+    "selector_telemetry_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
